@@ -3,7 +3,7 @@ function erlang_tarball() {
 }
 
 function download_erlang() {
-  erlang_package_url="https://s3.amazonaws.com/heroku-buildpack-elixir/erlang/cedar-14"
+  erlang_package_url="https://s3-eu-west-1.amazonaws.com/myfuturenow-public/heroku-buildpack-elixir/erlang/heroku-18"
   erlang_package_url="${erlang_package_url}/$(erlang_tarball)"
 
   # If a previous download does not exist, then always re-download
